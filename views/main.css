@@ -1,0 +1,98 @@
+.myname {
+	color: #11503d;
+	font-family: 'Alex Brush', cursive;
+	font-size: 80px; 
+	font-weight: normal; 
+	line-height: 48px; 
+	margin: 3%;
+	text-align: center;
+	left: 50%;
+}
+
+.myname:hover { 
+transform:scale(1.2, 1.2); 
+animation-name: pop;
+color: #900e0e;
+text-decoration: underline;
+}
+
+.allthings {
+	    color: #ffffff; 
+		font-size: 12px; 
+		font-weight: bold; 
+		line-height: 12px; 
+		letter-spacing: 1px; 
+		
+	    text-align: center;
+	    align-content: center;
+	    margin: auto;
+	    
+}
+
+.mybutton {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px; 
+	font-weight: bold; 
+	line-height: 30px;
+	margin:auto;
+	align-content:center;
+	opacity: 0.8;
+ }
+
+ .mybutton:hover{
+	color: #900e0e;
+	opacity: 1;
+}
+
+body {
+	background: #7de3c5; 
+	align-content: center;
+}
+
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+	margin: 2%;
+}
+
+.homeimg {
+	width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.popart {
+ -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-gradient(linear,  left top,  left bottom, 
+        color-stop(0.00%, red), 
+        color-stop(16%, orange),
+        color-stop(20%, yellow),
+        color-stop(48%, green),
+        color-stop(60%, blue),
+        color-stop(80%, indigo),
+        color-stop(1.00, violet));
+    font-size: 55px;
+    line-height:50px;
+}
+
+.aboutcontent {
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 3%;
+	font-size: 35px; 
+	line-height: 25px; 
+}
+
+.underline {
+	text-decoration: underline;
+	color: #311e43;
+}
+.contact {
+	margin: 3%;
+	font-size: 50px;
+	line-height: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
